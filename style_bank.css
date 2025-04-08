@@ -1,0 +1,132 @@
+*{
+margin : 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.nav-bar img{
+    width: 120px;
+    height: auto;
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+}
+.nav-items > a{
+    text-decoration: none;
+    font-size:  1.2em;  
+    color: darkgrey;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.nav-bar> button{
+padding: 15px, 25px;
+font-size: 1em;
+font-weight: 600;
+border: none;
+border-radius: 20px; /*makes it pill shaped */
+cursor: pointer;
+outline-width: 0;
+align-self: center;
+color: azure;
+background-image: linear-gradient(120deg, 
+hsl(192,70%,51%), 
+hsl(136, 65%,51%));
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+.hero-img-container{
+    background-image: url();
+    background-size: cover;
+    background-position : bottom;
+    background-repeat: no-repeat;
+    padding : 20px;
+}
+.hero-img-container >img{
+    width: 500px;
+}
+.hero-text-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.hero-text-container > h1{
+    font-size: 60px;
+    font-weight:700;
+    margin-bottom: 15px;
+    color:darkblue ;
+    line-height: 1.1;
+}
+.hero-text-container > p{
+    color: black;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.hero-text-container > button{
+    /* padding: 12px, 32px;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 999px; --makes it pill shaped--
+    cursor: pointer;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-image: linear-gradient(120deg, 
+    hsl(312, 32%, 64%), 
+    hsl(319, 53%, 66%)); */
+
+    padding: 12px 32px;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #ba5aa4;    /* Soft green, modern look */
+    color: white;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* subtle shadow */
+    transition: background-color 0.3s ease;
+
+}
+.container{
+    background-color:gainsboro;
+    /* display: flex; */
+}
+.why-us{
+    padding-top: 10vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10vh;
+}
+.why-us >h1{
+    font-size: 45px;
+    font-weight:700;
+    margin-bottom: 15px;
+    color:darkblue ;
+    line-height: 1.1;
+}
+.why-us >p{
+    color: black;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
